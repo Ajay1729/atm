@@ -1,0 +1,29 @@
+{
+    "name": "Transaction",
+    "fields": [
+        {
+            "fieldName": "transactionId",
+            "fieldType": "Integer"
+        },
+        {
+            "fieldName": "customerId",
+            "fieldType": "Integer"
+        },
+        {
+            "fieldName": "amount",
+            "fieldType": "Double"
+        }
+    ],
+    "relationships": [],
+    "changelogDate": "20191231063605",
+    "entityTableName": "transaction",
+    "dto": "mapstruct",
+    "pagination": "pagination",
+    "service": "serviceImpl",
+    "jpaMetamodelFiltering": false,
+    "fluentMethods": true,
+    "readOnly": false,
+    "clientRootFolder": "Atm",
+    "applications": "*",
+    "microserviceName": "Atm"
+}

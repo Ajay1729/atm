@@ -1,0 +1,53 @@
+{
+  "generator-jhipster": {
+    "promptValues": {
+      "packageName": "com.lxisoft.atm",
+      "nativeLanguage": "en"
+    },
+    "jhipsterVersion": "6.6.0",
+    "applicationType": "microservice",
+    "baseName": "Atm",
+    "packageName": "com.lxisoft.atm",
+    "packageFolder": "com/lxisoft/atm",
+    "serverPort": "8082",
+    "authenticationType": "oauth2",
+    "cacheProvider": "no",
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "mysql",
+    "prodDatabaseType": "mysql",
+    "searchEngine": false,
+    "messageBroker": false,
+    "serviceDiscoveryType": false,
+    "buildTool": "maven",
+    "enableSwaggerCodegen": false,
+    "jwtSecretKey": "OGIwZWE4NmM1MzQxMzkxZGZkNTgxYTg2MjI2ZjAwOTY4MzMwY2ZkOWY1NTRiYjIyOWZlYTZkNWFiMjY4NDhkYjUxMjA4YTM3YjlmZmQxYjU0M2VmZmFkMzFhY2E4OGQ5MTVlYTVmZTI4YjAwMmVmNTM4NzVmNWVlOTUwM2M1ODc=",
+    "embeddableLaunchScript": false,
+    "creationTimestamp": 1577773390009,
+    "testFrameworks": [],
+    "jhiPrefix": "jhi",
+    "entitySuffix": "",
+    "dtoSuffix": "DTO",
+    "otherModules": [],
+    "enableTranslation": true,
+    "clientPackageManager": "npm",
+    "nativeLanguage": "en",
+    "languages": [
+      "en"
+    ],
+    "blueprints": [],
+    "skipClient": true,
+    "skipUserManagement": true
+  },
+  "generator-jhipster-swagger-cli": {
+    "promptValues": {
+      "inputSpec": "/home/ajay/Downloads/apache-tomcat-9.0.30/webapps/activiti-rest/docs/activiti.json",
+      "cliName": "activiti"
+    },
+    "apis": {
+      "activiti": {
+        "spec": "/home/ajay/Downloads/apache-tomcat-9.0.30/webapps/activiti-rest/docs/activiti.json"
+      }
+    }
+  }
+}
